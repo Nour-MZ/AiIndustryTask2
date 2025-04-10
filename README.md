@@ -24,3 +24,11 @@ This project deploys a sentiment analysis model as a RESTful API using FastAPI.
       "text": "Your text here."
    }
 
+5. Response like:
+
+   {
+   "label": "POSITIVE",
+   "score": 0.99
+   }
+
+

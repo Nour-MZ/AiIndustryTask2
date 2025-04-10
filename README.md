@@ -7,12 +7,12 @@ This project deploys a sentiment analysis model as a RESTful API using FastAPI.
 1. Clone the repository:
   
    git clone <repository-url>
-   cd ai-model-api-service
+   cd app
 
 2. Install dependencies:
 
-pip install -r app/requirements.txt
+   pip install -r app/requirements.txt
 
 
 3. Run the API:
-uvicorn app.main:app --reload
+   uvicorn app.main:app --reload

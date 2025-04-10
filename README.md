@@ -16,3 +16,11 @@ This project deploys a sentiment analysis model as a RESTful API using FastAPI.
 
 3. Run the API:
    uvicorn app.main:app --reload
+
+4. Usage:
+   Send a POST request to /analyze/ with JSON content:
+
+   {
+      "text": "Your text here."
+   }
+
